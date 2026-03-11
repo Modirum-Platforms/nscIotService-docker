@@ -13,11 +13,11 @@ This is a microservice based SW deployment specific repository for a NSC IoT cli
 
 
 ## Installation instructions:
-- [Docker installation for Raspberry Pi:](https://github.com/NSION/nscIotService-docker/blob/main/Installation-Raspberry-Pi.md)
-- [Configuring NSC IoTClient docker version for Cradlepoint router:](https://github.com/NSION/nscIotService-docker/blob/main/How-to-Setup-Cradlepoint.md)
-- [Configuring NSC IoTClient docker version for 64-bits ARM devices (linux/arm64):](https://github.com/NSION/nscIotService-docker/blob/main/How-to-Setup-arm64.md)
-- [Configuring NSC IoTClient docker version for 64-bits AMD devices (linux/amd64):](https://github.com/NSION/nscIotService-docker/blob/main/How-to-Setup-amd64.md)
-- [Installation of older NSC IotClient version (CLI management):](https://github.com/NSION/nscIotService-docker/blob/main/Installation-nscIotService.md)
+- [Docker installation for Raspberry Pi:](https://github.com/modirum-platforms/nscIotService-docker/blob/main/Installation-Raspberry-Pi.md)
+- [Configuring NSC IoTClient docker version for Cradlepoint router:](https://github.com/modirum-platforms/nscIotService-docker/blob/main/How-to-Setup-Cradlepoint.md)
+- [Configuring NSC IoTClient docker version for 64-bits ARM devices (linux/arm64):](https://github.com/modirum-platforms/nscIotService-docker/blob/main/How-to-Setup-arm64.md)
+- [Configuring NSC IoTClient docker version for 64-bits AMD devices (linux/amd64):](https://github.com/modirum-platforms/nscIotService-docker/blob/main/How-to-Setup-amd64.md)
+- [Installation of older NSC IotClient version (CLI management):](https://github.com/modirum-platforms/nscIotService-docker/blob/main/Installation-nscIotService.md)
 
 ## Alternative installation: 
 ### Windows installation (Native Windows app without docker):
@@ -27,8 +27,6 @@ This is a microservice based SW deployment specific repository for a NSC IoT cli
 
 NSC3™ is a  Realtime Resource Management for Intelligence Based Decision Making to Democratize your C2. Stream and store secured live video and data to other operators in the field and to  Control rooms. View video and data from drones, mobile phones, body cams, dashboard cams and surveillance cameras on your mobile phone in the field or on control room screens. Select the most relevant data source and always see real time data.   
 
-![nsc3Web](https://www.nsiontec.com/wp-content/uploads/2020/08/WebApp_image-768x612.png)
-![nsc3Overview](https://www.nsiontec.com/wp-content/uploads/2020/08/NSC3Overwiev-scaled-1-768x543.jpg)
 
 ### NSC IoT Client
 
