@@ -15,7 +15,7 @@ Below list is collecting detailed guidelines for several OS to install Docker
 + [MAC](https://docs.docker.com/docker-for-mac/install/)
 + [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 + [docker-compose](https://docs.docker.com/compose/install/)
-+ [Raspberry Pi4](https://github.com/NSION/nscIotService-docker/blob/main/Installation-Raspberry-Pi.md)
++ [Raspberry Pi4](https://github.com/modirum-platforms/nscIotService-docker/blob/main/Installation-Raspberry-Pi.md)
 
 - [x] **NSC IOT key:**
 
@@ -23,7 +23,7 @@ Download the corresponding Nsc IoT key from the NSC3 organisation as admin-user 
 
 + Login to NSC3 Web UI admin panel as admin or key user
 + Select the targeted organization and click "arrow down" icon
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/how-to-iotkey.png" width="324" height="324">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/how-to-iotkey.png" width="324" height="324">
 
 - [x] **RTSP url addresses for each of the camera sources:**
 
@@ -41,7 +41,7 @@ sudo apt-get install uuid-runtime
 ### Step 1: Clone git project 
 ```text 
 cd ~
-git clone https://github.com/NSION/nscIotService-docker.git
+git clone https://github.com/modirum-platforms/nscIotService-docker.git
 ```
 ### Step 2:  Create nscIotService specific folder and grant execute rights for shell scripts
 ```text 
@@ -187,7 +187,7 @@ Note that at the first start will pull docker image from dockerhub to local dock
 - Login to your NSC3 organisation
 - Select default task
 - Recently created video devices shall be visible like below example
-![WebUI](https://github.com/NSION/nscIotService-docker/blob/main/pictures/NSC3Web-sample.png)
+![WebUI](https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/NSC3Web-sample.png)
 
 ### Troubleshooting:
 
@@ -368,4 +368,4 @@ Removing all unused volumes:
 sudo docker volume prune
 ```
   
-## [nscIotService API spec:](https://github.com/NSION/nscIotService-emergency-button#api-specifications)
+## [nscIotService API spec:](https://github.com/modirum-platforms/nscIotService-emergency-button#api-specifications)

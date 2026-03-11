@@ -24,7 +24,7 @@ Download NSC access key for the NSC3 organisation as admin-user or key-user.
 
 + Login to NSC3 Web UI admin panel as admin or key user
 + Select the targeted organization and click "arrow down" icon
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/how-to-iotkey.png" width="420" height="324">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/how-to-iotkey.png" width="420" height="324">
 
 - [x] **RTSP url addresses for each of the camera sources:**
 
@@ -40,7 +40,7 @@ sudo apt install curl jq git
 ```
 ```text 
 cd ~
-git clone https://github.com/NSION/nscIotService-docker.git
+git clone https://github.com/modirum-platforms/nscIotService-docker.git
 ```
 #### 3. Start-up NSC IOTClient
 
@@ -66,7 +66,7 @@ Following steps requires access to local network.
 
 - Open Browser to address: device_IP_address:8090 as example http://192.168.0.100:8090 or http://localhost:8090
 
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/nscIotClient-key.png" width="600" height="320">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/nscIotClient-key.png" width="600" height="320">
 
 #### Connect to NSC3 server (Web UI)
   
@@ -77,21 +77,21 @@ Following steps requires access to local network.
   
 - Select "Camera sources" -> "IP camera source" -> "Next"
   
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/nscIotClientDevice.png" width="600" height="320">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/nscIotClientDevice.png" width="600" height="320">
   
 - Define name, rtsp address and required credentials for camera. As example rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4
   
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/nscIotClient-rtsp.png" width="500" height="320">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/nscIotClient-rtsp.png" width="500" height="320">
 
 #### Start broadcasting to NSC3 server (Web UI)
 
 - Activate broadcasting to NSC3 server (Local view)
   
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/nscIotClient-localview.png" width="600" height="320">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/nscIotClient-localview.png" width="600" height="320">
   
 - Verify results on NSC3 Web UI (Remove view)
   
-<img src="https://github.com/NSION/nscIotService-docker/blob/main/pictures/nscIotClient-backend.png" width="600" height="320">
+<img src="https://github.com/modirum-platforms/nscIotService-docker/blob/main/pictures/nscIotClient-backend.png" width="600" height="320">
 
 ### Managed nscIoTClient with CLI tool (nscIoTClient-CLI.sh)
 
@@ -302,4 +302,4 @@ Removing all unused volumes:
 sudo docker volume prune
 ```
   
-## [nscIotService API spec:](https://github.com/NSION/nscIotService-emergency-button#api-specifications)
+## [nscIotService API spec:](https://github.com/modirum-platforms/nscIotService-emergency-button#api-specifications)
